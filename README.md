@@ -1,6 +1,17 @@
-# 🚀 Proyectos con Entornos Virtuales
 
-**Versión de Python utilizada:** Python 3.11.2  
+## 🧩 Instrucciones básicas
+
+### Crear entornos virtuales
+```bash
+# Proyecto A
+cd proyecto_A
+python -m venv venv_1
+venv_1\Scripts\activate    
+pip install jupyter
+pip freeze > requirements.txt
+# pasa lo mismo con Proyecto B
+```
+**Versión de Python utilizada:** Python 3.11.2
 
 ## 📘 Descripción General
 Este repositorio contiene dos proyectos independientes que utilizan entornos virtuales separados:
